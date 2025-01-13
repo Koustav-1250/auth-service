@@ -26,7 +26,7 @@ public class UserController {
         return ResponseEntity.ok(userService.signIn(authenticationRequest.getEmailId(), authenticationRequest.getPassword()));
     }
 
-    @GetMapping("/user/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<UserResponse> getUser(@PathVariable String id) {
         return ResponseEntity.ok(userService.getUser(id));
     }
