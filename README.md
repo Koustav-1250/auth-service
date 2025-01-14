@@ -3,6 +3,11 @@
 ## Application Name:
 `auth-service`
 
+use to run the project, also check your docker auth cred, if any issue while running below command. You have to remove credentials.
+```
+docker-compose run --build
+```
+
 ## JWT Expiration:
 The JWT expiration time is set as this in milliseconds (2 min) :
 ```properties
