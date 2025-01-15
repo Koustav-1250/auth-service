@@ -5,7 +5,7 @@
 
 use to run the project, also check your docker auth cred, if any issue while running below command. You have to remove credentials.
 ```
-docker-compose run --build
+docker-compose up
 ```
 
 ## JWT Expiration:
